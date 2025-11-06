@@ -194,6 +194,7 @@
 
 
 # 3.	Acumulador/Contador: Usa un ciclo for para iterar a través de la lista de números [12, 5, 8, 10, 3, 7] y cuenta e imprime cuántos de ellos son mayores que 10.
+# 3.	Acumulador/Contador: Usa un ciclo for para iterar a través de la lista de números [12, 5, 8, 10, 3, 7] y cuenta e imprime cuántos de ellos son mayores que 10.
 
 
 
