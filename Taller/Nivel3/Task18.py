@@ -30,4 +30,4 @@ while number != 0 :
 
 
 # Al salir del bucle, mostramos el resultado final.
-print(f"\n✅ Process finished. The total sum of all numbers entered is: {total_sum}")
+print(f"\nProcess finished. The total sum of all numbers entered is: {total_sum}")

@@ -1,6 +1,6 @@
 # 1. Validación de datos con condicionales:
 
-#     Crea un menú que pregunte al usuario qué acción desea realizar:
+#     Crea un menú que pregunte al usuario qué acción desea realizar:-----
 #         Agregar producto
 #         Mostrar inventario
 #         Calcular estadísticas
@@ -10,18 +10,27 @@
 
 
 
+option=""
+while option !=4:
+
+    print("What action do you want to take")
+    print("Add product*")
+    print("Show inventory*")
+    print("Calculate statistics")
+    print("Exit")
+    print("")
+
+    if   option =='1':
+        print("")
+    elif option =='1':
+        print("")
+    elif option =='1':
+        print("")
+    elif option =='1':  
+        print("")  
 
 
 
 
- 
-
-print("What action do you want to take")
-
-
-print("Add product*")
-print("Show inventory*")
-print("Calculate statistics")
-print("Exit")
 
 

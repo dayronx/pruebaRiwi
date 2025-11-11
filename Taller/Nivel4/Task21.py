@@ -28,7 +28,7 @@ while option != "4":
         # Option 1: ADD FRUIT
         new_fruit = input("Which fruit do you want to add?: ").lower()
         fruits.append(new_fruit)
-        print(f"✅ '{new_fruit.capitalize()}' added!")
+        print(f"'{new_fruit.capitalize()}' added!")
         
     elif option == "2":
         # Option 2: REMOVE FRUIT
@@ -36,9 +36,9 @@ while option != "4":
         
         if fruit_to_remove in fruits:
             fruits.remove(fruit_to_remove)
-            print(f"✅ '{fruit_to_remove.capitalize()}' removed!")
+            print(f"'{fruit_to_remove.capitalize()}' removed!")
         else:
-            print(f"❌ Error: '{fruit_to_remove.capitalize()}' is not in the list.")
+            print(f"Error: '{fruit_to_remove.capitalize()}' is not in the list.")
             
     elif option == "3":
         # Option 3: SHOW LIST
@@ -46,10 +46,10 @@ while option != "4":
 
     elif option == "4":
         # Option 4: EXIT
-        print("👋 Exiting the fruit manager. Goodbye!")
+        print(" Exiting the fruit manager. Goodbye!")
         
     else:
         # Invalid option
-        print("⚠️ Invalid option. Please choose 1, 2, 3, or 4.")
+        print(" Invalid option. Please choose 1, 2, 3, or 4.")
 
 print(f"Final list saved: {fruits}")

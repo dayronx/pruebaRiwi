@@ -84,9 +84,5 @@ while option !=4:
       else:
          print("This grade does not correspond to this grading system.")
 
-
-
-
-
    elif option =='4':
       break
