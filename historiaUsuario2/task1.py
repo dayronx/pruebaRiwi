@@ -10,27 +10,26 @@
 
 
 
-option=""
-while option !=4:
-
-    print("What action do you want to take")
-    print("Add product*")
-    print("Show inventory*")
-    print("Calculate statistics")
-    print("Exit")
-    print("")
-
-    if   option =='1':
-        print("")
-    elif option =='1':
-        print("")
-    elif option =='1':
-        print("")
-    elif option =='1':  
-        print("")  
 
 
 
+
+print("1::Agregar producto")
+print("2::Mostrar inventario")
+print("3::Calcular estadísticas")
+print("4::Salir")
+opcion=int(input("Dijiste una opcion "))
+
+if opcion ==1:
+    print("1::Agregar producto")
+elif opcion==2:
+    print("2::Mostrar inventario")
+elif opcion==3:
+    print("3::Calcular estadísticas")
+elif opcion==4:
+        print("4::Salir")
+else:
+    print("El numero no esta en la lista")        
 
 
 

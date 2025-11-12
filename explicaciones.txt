@@ -1,0 +1,35 @@
+1. input("Introduce el Nombre del estudiante: ")
+
+    Función: input()
+
+    Propósito: Muestra el texto (el prompt) entre paréntesis al usuario en la consola y espera a que el usuario escriba algo y presione Enter.
+
+    Resultado: Devuelve el texto que el usuario escribió como una cadena de caracteres (string).
+
+2. .strip()
+
+    Método: strip()
+
+    Propósito: Elimina cualquier espacio en blanco (espacios, tabulaciones, saltos de línea) que el usuario haya escrito accidentalmente al principio o al final de la cadena de texto.
+
+    Ejemplo de uso: Si el usuario escribe " juan ", después de .strip(), la cadena queda como "juan".
+
+3. .capitalize()
+
+    Método: capitalize()
+
+    Propósito: Convierte la primera letra de la cadena a mayúscula y el resto de las letras a minúscula.
+
+    Ejemplo de uso: Si la cadena es "juan", después de .capitalize(), queda como "Juan". Si es "PEDRO", queda como "Pedro".
+
+
+
+
+    ////////////////////
+    preguntas
+
+    que es una funcion
+    que es un algoritmo 
+    QUE ES UN METODO
+    que es una lista 
+    que es una tupla 
